@@ -1,4 +1,4 @@
-import getJwtToken from '../helpers/getJwtToken';
+import getJwtToken from '../helpers/getJwtToken.js';
 
 
 const cookieToken = (user, res) => {
@@ -15,4 +15,4 @@ const cookieToken = (user, res) => {
     })
 }
 
-module.exports = cookieToken;
+export default cookieToken;
